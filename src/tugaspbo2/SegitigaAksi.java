@@ -5,6 +5,8 @@ public class SegitigaAksi {
         Segitiga s1 = new Segitiga();
         s1.alas = 17;
         s1.tinggi = 22;
+        
+        s1.cetakinfo();
     }
     
 }
