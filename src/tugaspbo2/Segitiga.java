@@ -10,4 +10,9 @@ public class Segitiga {
         System.out.println("=========================");
     }
     
+    double hitungluas(){
+        double luas;
+        luas=(alas*tinggi)/2;
+        return luas;
+    }
 }

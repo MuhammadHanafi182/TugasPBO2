@@ -7,6 +7,7 @@ public class SegitigaAksi {
         s1.tinggi = 22;
         
         s1.cetakinfo();
+        System.out.println("Luas Segitiga ="+s1.hitungluas());
     }
     
 }
