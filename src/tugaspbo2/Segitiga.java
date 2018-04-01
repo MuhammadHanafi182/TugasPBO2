@@ -2,6 +2,11 @@ package tugaspbo2;
 public class Segitiga {
     double alas;
     double tinggi;
+
+    public Segitiga() {
+        alas=9;
+        tinggi=14;
+    }
     
     void cetakinfo(){
         System.out.println("=========================");
@@ -14,5 +19,8 @@ public class Segitiga {
         double luas;
         luas=(alas*tinggi)/2;
         return luas;
+    }
+    void cetakluas(){
+        System.out.println("Luas Segitiga adalah :"+hitungluas());
     }
 }
